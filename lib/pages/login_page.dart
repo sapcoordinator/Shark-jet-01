@@ -210,8 +210,8 @@ class _LoginPageState extends State<LoginPage> {
       right: 0,
       child: Image.asset(
         'assets/login1.png',
-        width: 320,
-        height: 450,
+        width: 200,
+        height: 300,
         opacity: AlwaysStoppedAnimation(5),
       ),
     ),
