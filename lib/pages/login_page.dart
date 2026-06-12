@@ -74,8 +74,8 @@ class _LoginPageState extends State<LoginPage> {
   ),
   // borderRadius: BorderRadius.circular(10),
 ),
-      
-            
+
+
       child: SingleChildScrollView(   //used for scrolling the page 
         child: Container(
         padding: const EdgeInsets.all(16),
@@ -185,15 +185,15 @@ class _LoginPageState extends State<LoginPage> {
       ),
     ),
 
-    // Positioned(
-    //   top: 0,
-    //   right: 0,
-    //   child: Image.asset(
-    //     'assets/top_right.png',
-    //     width: 120,
-    //     opacity: AlwaysStoppedAnimation(0.3),
-    //   ),
-    // ),
+    Positioned(
+      top: 0,
+      right: 0,
+      child: Image.asset(
+        'assets/top_right.png',
+        width: 120,
+        opacity: AlwaysStoppedAnimation(0.3),
+      ),
+    ),
 
     // Positioned(
     //   bottom: 0,
