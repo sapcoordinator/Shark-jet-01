@@ -77,7 +77,8 @@ class HomePage extends StatelessWidget {
         onPressed: () {
           Navigator.pop(context); // go back to form
         },
-        child: const Icon(Icons.add),
+        tooltip: 'Go Back',
+        child: const Icon(Icons.arrow_back),
       ),
     );
   }
