@@ -18,7 +18,7 @@ Future<List<UserModel>> loadUsers() async {
       .toList();
 }
 
-void main() async {
+void main() async {  //initial part of the programming (the one and only)
   WidgetsFlutterBinding.ensureInitialized(); //IMPORTANT
 
   storage.users = await loadUsers(); //LOAD SAVED DATA
@@ -26,13 +26,13 @@ void main() async {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatelessWidget {  //it is in Static form so you can't initilize the my app class
   const MyApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) {  //help to build UI widget
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,    //remove the banner from the Userinterface UI
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
