@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("User Repository", 
+        title: const Text("User Repository there they can store information in a Structure way", 
         style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white,),),
         backgroundColor:  Color.fromARGB(255, 80, 58, 161),
         // centerTitle: true,
